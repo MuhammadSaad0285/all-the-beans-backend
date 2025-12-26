@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "4WMV6xjaqTw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Saad Awais\\Downloads\\LK Metrology Software Task\\AllTheBeans\\all-the-beans-backend\\src\\AllTheBeans.Application\\AllTheBeans.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Saad Awais\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\10.0.1\\microsoft.extensions.caching.abstractions.10.0.1.nupkg.sha512",
+    "C:\\Users\\Saad Awais\\.nuget\\packages\\microsoft.extensions.caching.memory\\10.0.1\\microsoft.extensions.caching.memory.10.0.1.nupkg.sha512",
+    "C:\\Users\\Saad Awais\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.1\\microsoft.extensions.dependencyinjection.abstractions.10.0.1.nupkg.sha512",
+    "C:\\Users\\Saad Awais\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.1\\microsoft.extensions.logging.abstractions.10.0.1.nupkg.sha512",
+    "C:\\Users\\Saad Awais\\.nuget\\packages\\microsoft.extensions.options\\10.0.1\\microsoft.extensions.options.10.0.1.nupkg.sha512",
+    "C:\\Users\\Saad Awais\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.1\\microsoft.extensions.primitives.10.0.1.nupkg.sha512",
+    "C:\\Users\\Saad Awais\\.nuget\\packages\\system.diagnostics.diagnosticsource\\10.0.1\\system.diagnostics.diagnosticsource.10.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

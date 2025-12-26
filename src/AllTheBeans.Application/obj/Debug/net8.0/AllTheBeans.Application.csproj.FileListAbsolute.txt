@@ -1,0 +1,16 @@
+C:\Users\Saad Awais\Downloads\LK Metrology Software Task\AllTheBeans\all-the-beans-backend\src\AllTheBeans.Application\bin\Debug\net8.0\AllTheBeans.Application.deps.json
+C:\Users\Saad Awais\Downloads\LK Metrology Software Task\AllTheBeans\all-the-beans-backend\src\AllTheBeans.Application\bin\Debug\net8.0\AllTheBeans.Application.dll
+C:\Users\Saad Awais\Downloads\LK Metrology Software Task\AllTheBeans\all-the-beans-backend\src\AllTheBeans.Application\bin\Debug\net8.0\AllTheBeans.Application.pdb
+C:\Users\Saad Awais\Downloads\LK Metrology Software Task\AllTheBeans\all-the-beans-backend\src\AllTheBeans.Application\bin\Debug\net8.0\AllTheBeans.Domain.dll
+C:\Users\Saad Awais\Downloads\LK Metrology Software Task\AllTheBeans\all-the-beans-backend\src\AllTheBeans.Application\bin\Debug\net8.0\AllTheBeans.Domain.pdb
+C:\Users\Saad Awais\Downloads\LK Metrology Software Task\AllTheBeans\all-the-beans-backend\src\AllTheBeans.Application\obj\Debug\net8.0\AllTheBeans.Application.csproj.AssemblyReference.cache
+C:\Users\Saad Awais\Downloads\LK Metrology Software Task\AllTheBeans\all-the-beans-backend\src\AllTheBeans.Application\obj\Debug\net8.0\AllTheBeans.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Saad Awais\Downloads\LK Metrology Software Task\AllTheBeans\all-the-beans-backend\src\AllTheBeans.Application\obj\Debug\net8.0\AllTheBeans.Application.AssemblyInfoInputs.cache
+C:\Users\Saad Awais\Downloads\LK Metrology Software Task\AllTheBeans\all-the-beans-backend\src\AllTheBeans.Application\obj\Debug\net8.0\AllTheBeans.Application.AssemblyInfo.cs
+C:\Users\Saad Awais\Downloads\LK Metrology Software Task\AllTheBeans\all-the-beans-backend\src\AllTheBeans.Application\obj\Debug\net8.0\AllTheBeans.Application.csproj.CoreCompileInputs.cache
+C:\Users\Saad Awais\Downloads\LK Metrology Software Task\AllTheBeans\all-the-beans-backend\src\AllTheBeans.Application\obj\Debug\net8.0\AllTheBeans.Application.sourcelink.json
+C:\Users\Saad Awais\Downloads\LK Metrology Software Task\AllTheBeans\all-the-beans-backend\src\AllTheBeans.Application\obj\Debug\net8.0\AllTheBe.B1DE2A6C.Up2Date
+C:\Users\Saad Awais\Downloads\LK Metrology Software Task\AllTheBeans\all-the-beans-backend\src\AllTheBeans.Application\obj\Debug\net8.0\AllTheBeans.Application.dll
+C:\Users\Saad Awais\Downloads\LK Metrology Software Task\AllTheBeans\all-the-beans-backend\src\AllTheBeans.Application\obj\Debug\net8.0\refint\AllTheBeans.Application.dll
+C:\Users\Saad Awais\Downloads\LK Metrology Software Task\AllTheBeans\all-the-beans-backend\src\AllTheBeans.Application\obj\Debug\net8.0\AllTheBeans.Application.pdb
+C:\Users\Saad Awais\Downloads\LK Metrology Software Task\AllTheBeans\all-the-beans-backend\src\AllTheBeans.Application\obj\Debug\net8.0\ref\AllTheBeans.Application.dll

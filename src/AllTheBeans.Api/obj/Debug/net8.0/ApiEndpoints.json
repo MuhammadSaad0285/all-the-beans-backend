@@ -1,0 +1,269 @@
+[
+  {
+    "ContainingType": "AllTheBeans.Api.Endpoints.BeanOfTheDayEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapBeanOfTheDayEndpoints\u003Eb__0_0",
+    "RelativePath": "bean-of-the-day/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "AllTheBeans.Api.Contracts.BeanOfTheDay.BeanOfTheDayResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "BeanOfTheDay"
+    ],
+    "EndpointName": "GetBeanOfTheDay"
+  },
+  {
+    "ContainingType": "AllTheBeans.Api.Endpoints.BeansEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapBeansEndpoints\u003Eb__0_0",
+    "RelativePath": "beans/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Colour",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Country",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[AllTheBeans.Api.Contracts.Beans.BeanResponse, AllTheBeans.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Beans"
+    ]
+  },
+  {
+    "ContainingType": "AllTheBeans.Api.Endpoints.BeansEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapBeansEndpoints\u003Eb__0_2",
+    "RelativePath": "beans/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AllTheBeans.Api.Contracts.Beans.BeanCreateRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AllTheBeans.Api.Contracts.Beans.BeanResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Beans"
+    ]
+  },
+  {
+    "ContainingType": "AllTheBeans.Api.Endpoints.BeansEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapBeansEndpoints\u003Eb__0_1",
+    "RelativePath": "beans/{id:int}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AllTheBeans.Api.Contracts.Beans.BeanResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      }
+    ],
+    "Tags": [
+      "Beans"
+    ]
+  },
+  {
+    "ContainingType": "AllTheBeans.Api.Endpoints.BeansEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapBeansEndpoints\u003Eb__0_3",
+    "RelativePath": "beans/{id:int}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "AllTheBeans.Api.Contracts.Beans.BeanUpdateRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Beans"
+    ]
+  },
+  {
+    "ContainingType": "AllTheBeans.Api.Endpoints.BeansEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapBeansEndpoints\u003Eb__0_4",
+    "RelativePath": "beans/{id:int}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      }
+    ],
+    "Tags": [
+      "Beans"
+    ]
+  },
+  {
+    "ContainingType": "AllTheBeans.Api.Endpoints.OrdersEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapOrdersEndpoints\u003Eb__0_0",
+    "RelativePath": "orders/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AllTheBeans.Api.Contracts.Orders.CreateOrderRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "Idempotency-Key",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AllTheBeans.Api.Contracts.Orders.OrderResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 409
+      }
+    ],
+    "Tags": [
+      "Orders"
+    ]
+  },
+  {
+    "ContainingType": "AllTheBeans.Api.Endpoints.OrdersEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapOrdersEndpoints\u003Eb__0_1",
+    "RelativePath": "orders/{id:int}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AllTheBeans.Api.Contracts.Orders.OrderResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      }
+    ],
+    "Tags": [
+      "Orders"
+    ]
+  }
+]

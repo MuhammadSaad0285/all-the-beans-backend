@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<!-- The API project references the Application and Infrastructure projects -->
+	</PropertyGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\AllTheBeans.Application\AllTheBeans.Application.csproj" />
+		<ProjectReference Include="..\AllTheBeans.Infrastructure\AllTheBeans.Infrastructure.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+		<!-- EF Core SQLite provider and tools -->
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.0">
+			<PrivateAssets>all</PrivateAssets>
+		</PackageReference>
+		<!-- Swagger/Swashbuckle -->
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+	</ItemGroup>
+</Project>
