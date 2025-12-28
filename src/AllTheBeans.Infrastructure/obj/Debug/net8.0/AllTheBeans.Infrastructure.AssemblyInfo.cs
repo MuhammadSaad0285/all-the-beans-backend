@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AllTheBeans.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e7241a25f3161819aff198e8e195fb7357ff036")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be13e8750eccebb6b0388155243c4a934755b059")]
 [assembly: System.Reflection.AssemblyProductAttribute("AllTheBeans.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AllTheBeans.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -82,3 +82,4 @@ C:\Users\Saad Awais\Downloads\LK Metrology Software Task\AllTheBeans\all-the-bea
 C:\Users\Saad Awais\Downloads\LK Metrology Software Task\AllTheBeans\all-the-beans-backend\src\AllTheBeans.Api\obj\Debug\net8.0\AllTheBeans.Api.pdb
 C:\Users\Saad Awais\Downloads\LK Metrology Software Task\AllTheBeans\all-the-beans-backend\src\AllTheBeans.Api\obj\Debug\net8.0\AllTheBeans.Api.genruntimeconfig.cache
 C:\Users\Saad Awais\Downloads\LK Metrology Software Task\AllTheBeans\all-the-beans-backend\src\AllTheBeans.Api\obj\Debug\net8.0\ref\AllTheBeans.Api.dll
+C:\Users\Saad Awais\Downloads\LK Metrology Software Task\AllTheBeans\all-the-beans-backend\src\AllTheBeans.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
